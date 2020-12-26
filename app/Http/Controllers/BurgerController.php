@@ -56,6 +56,6 @@ class BurgerController extends Controller
         $burger->level=request('level');
         $burger->addons=request('addons');
         $burger->save();
-        return redirect('/')->with('msg','Thanks for ordering ');
+        return redirect('/')->with('msg','Thanks for ordering, We will Contact with you soon ');
     }
 }
